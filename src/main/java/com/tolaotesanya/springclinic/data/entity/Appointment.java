@@ -13,7 +13,7 @@ public class Appointment {
     private long id;
     @Column(name="DOCTOR_ID")
     private long doctorId;
-    @Column(name="CUSTOMER_ID")
+    @Column(name="PATIENT_ID")
     private long patientId;
     @Column(name="APP_DATE")
     private Date date;
