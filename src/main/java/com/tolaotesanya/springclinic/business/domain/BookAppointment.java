@@ -8,9 +8,18 @@ public class BookAppointment {
     private long customerId;
     private String doctorName;
     private String doctorNumber;
+    private String doctorInfo;
     private String firstName;
     private String lastName;
     private Date date;
+
+    public String getDoctorInfo() {
+        return doctorInfo;
+    }
+
+    public void setDoctorInfo(String doctorInfo) {
+        this.doctorInfo = doctorInfo;
+    }
 
     public long getDoctorId() {
         return doctorId;

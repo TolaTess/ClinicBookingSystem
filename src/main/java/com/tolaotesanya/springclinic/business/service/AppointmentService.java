@@ -44,6 +44,7 @@ public class AppointmentService {
             bookAppointment.setDoctorId(doctor.getId());
             bookAppointment.setDoctorName(doctor.getName());
             bookAppointment.setDoctorNumber(doctor.getDoctorNumber());
+            bookAppointment.setDoctorInfo(doctor.getDoctorInfo());
             //put book appointment in a map using doctorId as key
             bookAppointmentMap.put(doctor.getId(), bookAppointment);
         });
