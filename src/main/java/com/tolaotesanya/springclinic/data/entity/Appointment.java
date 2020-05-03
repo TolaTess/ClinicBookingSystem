@@ -12,9 +12,9 @@ public class Appointment {
     @Column(name="APPOINTMENT_ID")
     private long id;
     @Column(name="DOCTOR_ID")
-    private long roomId;
+    private long doctorId;
     @Column(name="CUSTOMER_ID")
-    private long guestId;
+    private long patientId;
     @Column(name="APP_DATE")
     private Date date;
 
@@ -26,20 +26,20 @@ public class Appointment {
         this.id = id;
     }
 
-    public long getRoomId() {
-        return roomId;
+    public long getDoctorId() {
+        return doctorId;
     }
 
-    public void setRoomId(long roomId) {
-        this.roomId = roomId;
+    public void setDoctorId(long doctorId) {
+        this.doctorId = doctorId;
     }
 
-    public long getGuestId() {
-        return guestId;
+    public long getPatientId() {
+        return patientId;
     }
 
-    public void setGuestId(long guestId) {
-        this.guestId = guestId;
+    public void setPatientId(long patientId) {
+        this.patientId = patientId;
     }
 
     public Date getDate() {
